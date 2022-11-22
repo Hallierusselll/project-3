@@ -3,8 +3,8 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Responsive Layouts</title>
-  <meta name="description" content="This site will serve as the hub for many sub responsive layouts">
+  <title>Hallie Russell's Portfolio</title>
+  <meta name="description" content="This contains photography and design created by Hallie Russell">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <meta property="og:title" content="">
@@ -20,11 +20,64 @@
   <link rel="stylesheet" href="css/main.css">
 
   <meta name="theme-color" content="#fafafa">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Raleway:wght@400;500;900&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
   <!-- Place your site's HTML here -->
-  <p>This text will display on your site!</p>
+  <div class="hallie-header-wrapper">
+    <header class="hallie-header">
+      <img class="hallie-logo" src="./img/logo.webp" alt="" />
+      <nav class="hippocampus-main-nav">
+        <a href="./index.html">Home</a>
+        <a href="./aboutus.html">About</a>
+        <a href="./gallery.html">Gallery</a>
+        <a href="./contact.html">Contact</a>
+      </nav>
+      <div>
+        <div>
+          <button type="button" class="btn search-call text-nowrap" data-toggle="modal" data-target="#siteSearch"><span class="fas fa-search fa-sm" aria-hidden="true"></span> Search </button>
+          <button class="wider-toggler text-nowrap" type="button" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-label="Toggle navigation"><span class="fas fa-bars" aria-hidden="true"></span><span class="wider-toggler-text"> Menu</span></button>
+        </div>
+        <div>
+          <span class="search-heading">Search Hallie Russell</span>
+          <div>
+            <button type="button" class="btn search-call text-nowrap" data-toggle="modal" data-target="#siteSearch"><span class="fas fa-times fa-sm" aria-hidden="true"></span> Close </button>
+            <button class="wider-toggler text-nowrap" type="button" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-label="Toggle navigation"><span class="fas fa-bars" aria-hidden="true"></span><span class="wider-toggler-text"> Menu</span></button>
+          </div>
+        </div>
+          </div>
+      </div>
+    </header>
+  </div>
+  <div class="hallie-intro">
+    <h1>Hallie Russell</h1>
+  </div>
+  <main class="hippocampus-main-content">
+    <p>This text will display on your site!</p>
+  </main>
+  <div class="hallie-footer-wrapper">
+    <footer class="hallie-footer">
+      <div class="hallie-social-links">
+        <a class="hallie-social-link" href="https://www.instagram.com/" target="_blank">
+          <img class="hallie-social-link-image" src="./img/phone.png" alt="">
+          <span class="hallie-social-link-text sr-only">Instagram</span>
+        </a>
+        <a class="hallie-social-link" href="https://www.instagram.com/" target="_blank">
+          <img class="hallie-social-link-image" src="./img/phone.png" alt="">
+          <span class="hallie-social-link-text sr-only">Instagram</span>
+        </a>
+        <a class="hallie-social-link" href="https://www.instagram.com/" target="_blank">
+          <img class="hallie-social-link-image" src="./img/phone.png" alt="">
+          <span class="hallie-social-link-text sr-only">Instagram</span>
+        </a>
+      </div>
+      <span>&copy; 2022</span>
+    </footer>
+  </div>
   <script src="js/main.js"></script>
 </body>
 
