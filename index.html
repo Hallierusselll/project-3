@@ -37,28 +37,28 @@
         <a class="button"href="./gallery.html">Gallery</a>
         <a class="button"href="./contact.html">Contact</a>
       </nav>
-      <div>
-        <div>
-          <button type="button" class="btn search-call text-nowrap" data-toggle="modal" data-target="#siteSearch"><span class="fas fa-search fa-sm" aria-hidden="true"></span> Search </button>
-          <button class="wider-toggler text-nowrap" type="button" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-label="Toggle navigation"><span class="fas fa-bars" aria-hidden="true"></span><span class="wider-toggler-text"> Menu</span></button>
-        </div>
-        <div>
-          <span class="search-heading">Search Hallie Russell</span>
-          <div>
-            <button type="button" class="btn search-call text-nowrap" data-toggle="modal" data-target="#siteSearch"><span class="fas fa-times fa-sm" aria-hidden="true"></span> Close </button>
-            <button class="wider-toggler text-nowrap" type="button" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-label="Toggle navigation"><span class="fas fa-bars" aria-hidden="true"></span><span class="wider-toggler-text"> Menu</span></button>
-          </div>
-        </div>
-          </div>
+      <div class="mobile-nav-wrapper">
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          MENU
+        </a>
+        <nav id="myLinks" class="mobile-main-nav">
+          <a class="button"href="./index.html">Home</a>
+          <a class="button"href="./aboutus.html">About</a>
+          <a class="button"href="./gallery.html">Gallery</a>
+          <a class="button"href="./contact.html">Contact</a>
+        </nav>
       </div>
     </header>
   </div>
   <div class="hallie-intro">
     <h1>Hallie Russell</h1>
   </div>
+  <div class="hallie-main-content-wrapper">
   <main class="hallie-main-content">
     <p>This text will display on your site!</p>
   </main>
+  </div>
+
   <div class="hallie-footer-wrapper">
     <footer class="hallie-footer">
       <div class="hallie-social-links">
@@ -68,14 +68,14 @@
         </a>
         <a class="hallie-social-link" href="https://www.instagram.com/" target="_blank">
           <img class="hallie-social-link-image" src="./img/phone.png" alt="">
-          <span class="hallie-social-link-text sr-only">Instagram</span>
+          <span class="hallie-social-link-text sr-only">Facebook</span>
         </a>
         <a class="hallie-social-link" href="https://www.instagram.com/" target="_blank">
           <img class="hallie-social-link-image" src="./img/phone.png" alt="">
-          <span class="hallie-social-link-text sr-only">Instagram</span>
+          <span class="hallie-social-link-text sr-only">Website</span>
         </a>
       </div>
-      <span>&copy; 2022</span>
+      <span class="hallie-copyright">&copy; Created by Hallie Russell 2022</span>
     </footer>
   </div>
   <script src="js/main.js"></script>
