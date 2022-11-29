@@ -11,6 +11,10 @@
     clip-path: inset(50%);
     border: 0;
   }
+.hallie-logo {
+    width: 130px;
+  }
+  
 .hallie-header-wrapper,
 .hallie-main-content-wrapper,
 .hallie-footer-wrapper
@@ -146,7 +150,7 @@ justify-content: center;
 display: flex;
 justify-content: center;
 }
-@media (max-width: 999px) {
+@media (max-width: 1000px) {
     .hallie-main-nav {
       display: none;
     }
@@ -161,7 +165,6 @@ justify-content: center;
     left: 0;
     right: 0;
   }
-  
   .mobile-main-nav a {
     padding: 8px;
   }
