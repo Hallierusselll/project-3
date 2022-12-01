@@ -35,6 +35,28 @@ max-width: 2000px;
 background-color:rgba(161, 101, 49, 0.40);
 padding: 36px;
 }
+.hallie-intro{
+    background:
+    linear-gradient(
+        rgba(161, 101, 49, 0.20),
+        rgba(161, 101, 49, 0.20)
+    ),
+    url(../img/hallie3.png);
+  padding-top: 150px;
+  padding-bottom: 150px;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+.hallie-feature-image {
+    max-width: 250px;
+  }
+  
+.hallie-feature-images {
+    display: flex;
+    gap: 12px;
+  }
 body{
 background-color: white
 }
@@ -106,7 +128,7 @@ justify-content: center;
     list-style-type: none;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
-    grid-gap: 4px;
+    grid-gap: 300px;
 }
 .hallie-about{
 font-family:'Julius Sans One', sans-serif; ;
@@ -117,6 +139,7 @@ text-align: center;
 @media (max-width: 999px) {
     .hallie-service-list {
         grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+        grid-gap:4px
     }
 }
   
@@ -133,6 +156,7 @@ text-align: center;
 }
   
 .hallie-service-list p {
+    font-family:'Julius Sans One', sans-serif;
     font-size: 20px;
 }
   
@@ -158,7 +182,7 @@ justify-content: center;
 .mobile-main-nav {
     display: none;
     flex-direction: column;
-    align-items: center;
+    align-items:center;
     text-decoration: none;
     background-color:rgba(161, 101, 49, 0.40);
     position: absolute;
@@ -176,6 +200,11 @@ justify-content: center;
       display: none;
     }
   }
+.mobile-menu{
+    font-family:'Julius Sans One', sans-serif;
+    text-decoration: none;
+    color: black;
+}
 .hallie-image{
 max-width: 100px;
 }
@@ -187,4 +216,15 @@ padding: 40px;
 }
 .hallie-image-main-about{
 max-width: 300px;
+}
+.hallie-gallery-single{
+display: flex;
+justify-content:right;
+}
+.hallie-description{
+    font-family:'Julius Sans One', sans-serif;
+}
+.hallie-content-description{
+display: flex;
+justify-content: left;
 }
