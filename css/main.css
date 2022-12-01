@@ -13,8 +13,15 @@
   }
 .hallie-logo {
     width: 130px;
+    display: block;
+    justify-content: center;
+    padding: 10px;
   }
-  
+.hallie-logo-wrapper{
+max-width: 2000px;
+display: flex;
+justify-content: center;
+}
 .hallie-header-wrapper,
 .hallie-main-content-wrapper,
 .hallie-footer-wrapper
@@ -24,8 +31,9 @@
     margin-right: auto;
 }
 .hallie-header{
+max-width: 2000px;
 background-color:rgba(161, 101, 49, 0.40);
-padding: 15px;
+padding: 36px;
 }
 body{
 background-color: white
@@ -82,7 +90,7 @@ justify-content: center;
     color: black;
 }
 .hallie-social-link:hover {
-    border: 1px solid black;
+    border: 2px solid black;
 }
   
 .hallie-social-links {
@@ -168,3 +176,15 @@ justify-content: center;
       display: none;
     }
   }
+.hallie-image{
+max-width: 100px;
+}
+.hallie-image-main{
+max-width: 300px;
+}
+.hallie-feature-content{
+padding: 40px;
+}
+.hallie-image-main-about{
+max-width: 300px;
+}
