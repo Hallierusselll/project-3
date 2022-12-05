@@ -22,6 +22,13 @@ max-width: 2000px;
 display: flex;
 justify-content: center;
 }
+.hallie-welcome{
+    display: flex;
+    justify-content: center;
+    color:white;
+    font-family:'Libre Baskerville', serif;
+    font-size: 75px;
+}
 .hallie-header-wrapper,
 .hallie-main-content-wrapper,
 .hallie-footer-wrapper
@@ -78,6 +85,7 @@ display: flex;
 justify-content: center;
 font-family:'Julius Sans One', sans-serif;
 text-decoration: none;
+color: black;
 padding: 6px
 }
 .submit-button{
@@ -130,7 +138,11 @@ justify-content: center;
     grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
     grid-gap: 300px;
 }
+.hallie-about-wrapper{
+max-width: 800px;
+}
 .hallie-about{
+max-width: 800px;
 font-family:'Julius Sans One', sans-serif; ;
 display: flex;
 justify-content: center;
