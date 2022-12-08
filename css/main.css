@@ -45,8 +45,8 @@ padding: 36px;
 .hallie-intro{
     background:
     linear-gradient(
-        rgba(161, 101, 49, 0.20),
-        rgba(161, 101, 49, 0.20)
+        rgba(161, 101, 49, 0.40),
+        rgba(161, 101, 49, 0.40)
     ),
     url(../img/hallie3.png);
   padding-top: 150px;
@@ -136,7 +136,7 @@ justify-content: center;
     list-style-type: none;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
-    grid-gap: 300px;
+    grid-gap: 4px;
 }
 .hallie-about-wrapper{
 max-width: 800px;
@@ -151,7 +151,7 @@ text-align: center;
 @media (max-width: 999px) {
     .hallie-service-list {
         grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-        grid-gap:4px
+
     }
 }
   
@@ -237,6 +237,6 @@ justify-content:right;
     font-family:'Julius Sans One', sans-serif;
 }
 .hallie-content-description{
+max-width: 600px;
 display: flex;
-justify-content: left;
 }
